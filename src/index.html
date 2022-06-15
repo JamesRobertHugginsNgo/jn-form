@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <title>Stencil Component Starter</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+  <script type="module" src="/build/jn-form.esm.js"></script>
+  <script nomodule src="/build/jn-form.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <jn-form title="Form Title">
+      <jn-form-section classname="panel-info" title="Information">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas facilisis feugiat. Quisque
+              vulputate erat et ultrices sagittis. Aliquam ut leo at felis commodo maximus. Morbi rhoncus tellus a ipsum
+              cursus, a sollicitudin mi pharetra. Phasellus elementum posuere nisi, non gravida orci dignissim at. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie nulla sit amet ante hendrerit, non
+              eleifend lectus rutrum. Pellentesque fringilla, metus a commodo aliquet, nibh lorem gravida est, fermentum
+              finibus dolor ante a arcu.</p>
+          </div>
+        </div>
+      </jn-form-section>
+
+      <jn-form-section classname="panel-info" title="Text Input">
+        <jn-form-row>
+          <jn-form-text-field classname="col-xs-12 col-sm-4" title="Text Field"></jn-form-text-field>
+
+          <jn-form-number-field classname="col-xs-12 col-sm-4" title="Number Field"></jn-form-number-field>
+
+          <jn-form-password-field classname="col-xs-12 col-sm-4" title="Password Field"></jn-form-password-field>
+        </jn-form-row>
+
+        <jn-form-row>
+          <jn-form-text-field classname="col-xs-12 col-sm-4" title="Text Field"></jn-form-text-field>
+
+          <jn-form-number-field classname="col-xs-12 col-sm-4" title="Number Field"></jn-form-number-field>
+
+          <jn-form-password-field classname="col-xs-12 col-sm-4" title="Password Field"></jn-form-password-field>
+        </jn-form-row>
+      </jn-form-section>
+
+      <jn-form-section title="Textarea">
+        <jn-form-row>
+          <jn-form-textarea-field title="Textarea Field"></jn-form-textarea-field>
+        </jn-form-row>
+      </jn-form-section>
+
+      <jn-form-section title="Section Three"></jn-form-section>
+
+      <jn-form-section title="Section Four"></jn-form-section>
+    </jn-form>
+  </div>
+</body>
+
+</html>
